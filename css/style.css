@@ -25,10 +25,22 @@
     border-radius: 20px;
 }
 
+.box_logo{
+    height: 100px;
+    width: 60%;
+    background-color: yellow;
+}
 
-
-
-
+/* inizio playstation plus section  */
+.ps_plus .container-xxl{
+    background-color: #bebcbb;
+}
+.ps_plus .box_img{
+    width: 100%;
+}
+.ps_plus .box_img img{
+    width: 100%;
+}
 
 
 
