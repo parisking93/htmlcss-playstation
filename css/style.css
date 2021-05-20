@@ -17,3 +17,23 @@
     height: 100px;
     background-color: bisque;
 }
+.btn_box{
+    border-radius: 20px;
+}
+.btn_bord{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .playstation .photo_ps{
+        width: calc(100% / 5);
+    }
+}
