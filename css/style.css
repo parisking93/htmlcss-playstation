@@ -1,3 +1,8 @@
+/* COMMONS */
+.box_img img{
+    width: 100%;
+}
+/* FINE COOMONS  */
 /* header  */
 .box_sony{
     height: 20px;
@@ -38,10 +43,13 @@
 .ps_plus .box_img{
     width: 100%;
 }
-.ps_plus .box_img img{
+.box_img img{
     width: 100%;
 }
-
+/* inizio ps_now */
+.ps_now .container-xxl{
+    background-color: #171c39;
+}
 
 
 @media (min-width:768px) {
