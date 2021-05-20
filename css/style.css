@@ -1,3 +1,4 @@
+/* header  */
 .box_sony{
     height: 20px;
     background-color: black;
@@ -5,4 +6,14 @@
 
 .nav_destra{
     width: 100%;
+}
+/* fine header  */
+/* inizio main  */
+.box_ret{
+    height: 600px;
+    background-color: aqua;
+}
+.box_col{
+    height: 100px;
+    background-color: bisque;
 }
