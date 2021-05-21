@@ -109,7 +109,7 @@ section.returnal{
 .ps_plus .container-xxl{
     background-color: #bebcbb;
 }
-.ps_plus .box_img, .playstation .box_img{
+.ps_plus .box_img, .playstation .box_img, .esplora_ps .box_img, .sconti .box-img{
     width: 100%;
 }
 /* inizio ps_now */
