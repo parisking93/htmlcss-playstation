@@ -2,6 +2,12 @@
 .box_img img{
     width: 100%;
 }
+.bord_r15{
+    border-radius: 15px;
+}
+.p_3{
+    padding: 3px;
+}
 /* FINE COOMONS  */
 /* header  */
 .box_sony img{
@@ -23,7 +29,7 @@ header .nav-item img{
     background-size: cover;
     background-position: center;
     vertical-align: middle;
-    transition: all 0.3s linear;
+    transition: all 0.1s linear;
 }
 .nav_item:hover .dropdown-toggle::after{
     background-image: url(../img/img/chevron-down-solid-hover.svg);
@@ -37,6 +43,7 @@ header .nav-item img{
 }
 /* fine header  */
 /* inizio main  */
+/* sezione returnal  */
 section.returnal{
     padding-top: 105px;
 }
@@ -55,6 +62,7 @@ section.returnal{
 }
 .btn_box{
     border-radius: 20px;
+    padding: 1px !important;
 }
 .btn_bord{
     border-radius: 20px;
@@ -67,15 +75,18 @@ section.returnal{
     width: 60%;
     background-color: yellow;
 }
-
+/* fine sezione returnal  */
+/* sezione playstation  */
+.f_play .box_img:hover {
+    border: 2px solid #3978c9;
+    margin-top: -10px;
+}
+/* fine sezione playstation  */
 /* inizio playstation plus section  */
 .ps_plus .container-xxl{
     background-color: #bebcbb;
 }
-.ps_plus .box_img{
-    width: 100%;
-}
-.box_img img{
+.ps_plus .box_img, .playstation .box_img{
     width: 100%;
 }
 /* inizio ps_now */
