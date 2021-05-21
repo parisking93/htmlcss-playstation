@@ -4,9 +4,8 @@
 }
 /* FINE COOMONS  */
 /* header  */
-.box_sony{
-    height: 20px;
-    background-color: black;
+.box_sony img{
+    width: 100px;
 }
 .nav_destra{
     width: 100%;
