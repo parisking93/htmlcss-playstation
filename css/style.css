@@ -11,6 +11,28 @@
 .nav_destra{
     width: 100%;
 }
+.dropdown-toggle::after {
+    border: none;
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-image: url(../img/img/chevron-down-solid.svg);
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+.nav-item:hover .dropdown-toggle::after {
+    border: none;
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-image: url(../img/img/chevron-down-solid-hover.svg);
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
 /* fine header  */
 /* inizio main  */
 .box_ret{
