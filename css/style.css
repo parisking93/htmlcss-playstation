@@ -7,8 +7,11 @@
 .box_sony img{
     width: 100px;
 }
-.nav_destra{
-    width: 100%;
+.link_btn{
+    border-radius: 20px;
+}
+header .nav-item img{
+    width: 25px;
 }
 .dropdown-toggle::after {
     border: none;
@@ -22,12 +25,15 @@
     vertical-align: middle;
     transition: all 0.3s linear;
 }
-.nav-item:hover .dropdown-toggle::after{
+.nav_item:hover .dropdown-toggle::after{
     background-image: url(../img/img/chevron-down-solid-hover.svg);
 }
 .dropdown-toggle[aria-expanded="true"]:after{
     transform: rotate(-180deg);
     background-image: url(../img/img/chevron-down-solid-hover.svg);
+}
+.nav_item:hover .nav-link{
+    color: #0070d1 !important;
 }
 /* fine header  */
 /* inizio main  */
