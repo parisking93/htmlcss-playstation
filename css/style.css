@@ -37,9 +37,17 @@ header .nav-item img{
 }
 /* fine header  */
 /* inizio main  */
+section.returnal{
+    padding-top: 105px;
+}
 .box_ret{
-    height: 600px;
+    height: 45vw;
     background-color: aqua;
+    background-image: url(../img/img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 310px;
+    max-height: 650px;
 }
 .box_col{
     height: 100px;
@@ -49,10 +57,11 @@ header .nav-item img{
     border-radius: 20px;
 }
 .btn_bord{
-    border: 1px solid white;
     border-radius: 20px;
 }
-
+.btn_box:hover .btn_bord{
+    border: 1px solid white;
+}
 .box_logo{
     height: 80px;
     width: 60%;
@@ -86,5 +95,10 @@ header .nav-item img{
 @media (min-width:768px) {
     .playstation .photo_ps{
         width: calc(100% / 5);
+    }
+}
+@media(min-width:992px){
+    .returnal .box_img{
+        width: 50% !important;
     }
 }
