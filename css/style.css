@@ -53,8 +53,8 @@ section.returnal{
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    min-height: 310px;
-    max-height: 650px;
+    min-height: 400px;
+    max-height: 600px;
 }
 .box_col{
     height: 100px;
@@ -87,6 +87,12 @@ section.returnal{
 
 }
 /* fine sezione playstation  */
+/* inizio sezione it take two  */
+.box_ret.it_takes{
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+    height: auto;
+}
+/* fine sezione it take two  */
 /* inizio playstation plus section  */
 .ps_plus .container-xxl{
     background-color: #bebcbb;
@@ -115,6 +121,9 @@ section.returnal{
 }
 @media(min-width:992px){
     .returnal .box_img{
+        width: 50% !important;
+    }
+    .it_takes_two .box_img{
         width: 50% !important;
     }
 }
