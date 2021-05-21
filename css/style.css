@@ -71,9 +71,7 @@ section.returnal{
     border: 1px solid white;
 }
 .box_logo{
-    height: 80px;
-    width: 60%;
-    background-color: yellow;
+    width: 70%;
 }
 /* fine sezione returnal  */
 /* sezione playstation  */
@@ -111,6 +109,9 @@ section.returnal{
 }
 .ps_plus .box_img, .playstation .box_img, .esplora_ps .box_img, .sconti .box-img{
     width: 100%;
+}
+.btn_trasp{
+    background-color: rgba(255, 255, 255, 0.3);
 }
 /* inizio ps_now */
 .ps_now .container-xxl{
