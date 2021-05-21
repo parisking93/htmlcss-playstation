@@ -23,9 +23,21 @@
     vertical-align: middle;
     transition: all 0.3s linear;
 }
-.dropdown-toggle[aria-expanded="true"]:after{
+.nav-item:hover .dropdown-toggle::after{
     background-image: url(../img/img/chevron-down-solid-hover.svg);
+    border: none;
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    transition: all 0.3s linear;
+}
+.dropdown-toggle[aria-expanded="true"]:after{
     transform: rotate(-180deg);
+    background-image: url(../img/img/chevron-down-solid-hover.svg);
 }
 /* fine header  */
 /* inizio main  */
