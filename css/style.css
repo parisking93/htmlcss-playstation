@@ -117,6 +117,12 @@ section.returnal{
 .ps_now .container-xxl{
     background-color: #171c39;
 }
+.ps_now .box_logo{
+    width: 60%;
+}
+.ps_now .btn_bord:hover{
+    border: 1px solid black;
+}
 /* fine main  */
 /* inizio footer  */
 .footer_down .box_logo.foot{
