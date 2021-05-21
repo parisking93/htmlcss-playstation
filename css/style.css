@@ -8,7 +8,6 @@
     height: 20px;
     background-color: black;
 }
-
 .nav_destra{
     width: 100%;
 }
@@ -50,7 +49,15 @@
 .ps_now .container-xxl{
     background-color: #171c39;
 }
-
+/* fine main  */
+/* inizio footer  */
+.footer_down .box_logo.foot{
+    width: 20%;
+    background-color: red;
+}
+.bg_blue{
+    background-color: #194296;
+}
 
 @media (min-width:768px) {
     .playstation .photo_ps{
