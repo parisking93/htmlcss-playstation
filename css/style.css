@@ -51,7 +51,7 @@ section.returnal{
     padding-top: 105px;
 }
 .box_ret{
-    height: 50vw;
+    height: 55vw;
     background-color: aqua;
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
@@ -127,10 +127,7 @@ section.returnal{
 }
 /* fine main  */
 /* inizio footer  */
-.footer_down .box_logo.foot{
-    width: 20%;
-    background-color: red;
-}
+
 .bg_blue{
     background-color: #194296;
 }
