@@ -2,6 +2,9 @@
 .box_img img{
     width: 100%;
 }
+.returnal .box_img, .it_takes_two .box_img{
+    min-width: 250px;
+}
 .bord_r15{
     border-radius: 15px;
 }
@@ -29,7 +32,7 @@ header .nav-item img{
     background-size: cover;
     background-position: center;
     vertical-align: middle;
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
 }
 .nav_item:hover .dropdown-toggle::after{
     background-image: url(../img/img/chevron-down-solid-hover.svg);
@@ -48,13 +51,12 @@ section.returnal{
     padding-top: 105px;
 }
 .box_ret{
-    height: 45vw;
+    height: 50vw;
     background-color: aqua;
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     min-height: 400px;
-    max-height: 600px;
 }
 .box_col{
     height: 100px;
