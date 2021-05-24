@@ -34,6 +34,14 @@ body{
 #search{
     width: 25px;
 }
+header{
+    animation: appeare 2s ease 1;
+}
+@keyframes appeare {
+    0% {opacity: 0;}
+    70%{opacity:0;}
+    100% {opacity: 100%; }
+}
 .navbar .nav_item{
     position: static;
 }
@@ -71,6 +79,12 @@ body{
 /* sezione returnal  */
 section.returnal{
     margin-top: 106px;
+    animation: scale 2s ease 1;
+}
+@keyframes scale {
+    0% {margin-top: 0; height: calc(45vw + 106px);}
+    40%{margin-top: 0; height: calc(45vw + 106px);}
+    100% {margin-top: 106px;height:45vw}
 }
 .box_ret{
     height: 45vw;
@@ -80,9 +94,38 @@ section.returnal{
     min-height: 400px;
     max-height: 700px;
 }
-.box_col{
-    height: 100px;
-    background-color: bisque;
+.returnal .box_img{
+    animation: first 2s ease-in-out 1;
+}
+.returnal h2{
+    animation: second 2s ease 1;
+}
+.returnal p{
+    animation: tre 3s ease 1;
+}
+.returnal .btn_box{
+    animation: quattro 2s ease 1;
+}
+@keyframes first {
+    0% {position:relative; top: -800px;opacity: 0;}
+    10%{top: -400px; opacity: 0;}
+    100% {position: relative; top: 0; opacity:1;}
+}
+@keyframes second {
+    0% {position:relative; left: -800px; opacity: 0;}
+    40% {left: -200px; opacity: 0;}
+    100% {position: relative; left: 0; opacity: 1;}
+}
+@keyframes tre {
+    0% {opacity: 0;}
+    70%{opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes quattro {
+    0% {position:relative; bottom: -800px; opacity: 0;}
+    40% {bottom: -200px;}
+    70%{opacity: 0;}
+    100% {position: relative; bottom: 0; opacity: 1;}
 }
 .btn_box{
     border-radius: 20px;
