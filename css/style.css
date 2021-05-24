@@ -36,6 +36,7 @@ body{
 }
 header{
     animation: appeare 2s ease 1;
+    z-index: 1000;
 }
 @keyframes appeare {
     0% {opacity: 0;}
@@ -170,6 +171,11 @@ section.returnal{
     border: 1px solid white;
     line-height: 11px;
     vertical-align: super;
+}
+.nuove_uscite .box_img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: -1;
 }
 /* fine sezione nuove uscite  */
 /* inizio playstation plus section  */
