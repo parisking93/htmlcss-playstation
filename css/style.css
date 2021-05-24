@@ -1,4 +1,10 @@
 /* COMMONS */
+body{
+    font-family: 'Asap Condensed', sans-serif;
+}
+a{
+    font-family: 'Asap Condensed', sans-serif;
+}
 .box_img img{
     width: 100%;
 }
@@ -51,7 +57,7 @@ section.returnal{
     padding-top: 105px;
 }
 .box_ret{
-    height: 55vw;
+    height: 45vw;
     background-color: aqua;
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
@@ -130,6 +136,9 @@ section.returnal{
 
 .bg_blue{
     background-color: #194296;
+}
+.logo_footer{
+    width: 80px;
 }
 
 @media (min-width:768px) {
