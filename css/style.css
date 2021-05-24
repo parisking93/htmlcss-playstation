@@ -17,6 +17,9 @@ a{
 .p_3{
     padding: 3px;
 }
+.min_width70{
+    min-width: 70px;
+}
 /* FINE COOMONS  */
 /* header  */
 .box_sony img{
@@ -25,8 +28,18 @@ a{
 .link_btn{
     border-radius: 20px;
 }
-header .nav-item img{
+#search{
     width: 25px;
+}
+.navbar .nav_item{
+    position: static;
+}
+.dropdown-menu li a::before{
+    content: "\2022";  
+    color: black; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
 }
 .dropdown-toggle::after {
     border: none;
