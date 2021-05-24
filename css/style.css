@@ -104,7 +104,7 @@ section.returnal{
     animation: tre 3s ease 1;
 }
 .returnal .btn_box{
-    animation: quattro 2s ease 1;
+    animation: quattro 4s ease 1;
 }
 @keyframes first {
     0% {position:relative; top: -800px;opacity: 0;}
