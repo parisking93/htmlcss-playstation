@@ -17,6 +17,9 @@ body{
 .min_width70{
     min-width: 70px;
 }
+.black{
+    color: black !important;
+}
 /* FINE COOMONS  */
 /* header  */
 .box_sony img{
