@@ -64,7 +64,7 @@ body{
 /* inizio main  */
 /* sezione returnal  */
 section.returnal{
-    padding-top: 105px;
+    margin-top: 106px;
 }
 .box_ret{
     height: 45vw;
@@ -104,7 +104,7 @@ section.returnal{
 }
 /* fine sezione playstation  */
 /* inizio sezione it take two  */
-.box_ret.it_takes{
+.it_takes_two.box_ret{
     background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
     height: auto;
 }
@@ -122,7 +122,7 @@ section.returnal{
 }
 /* fine sezione nuove uscite  */
 /* inizio playstation plus section  */
-.ps_plus .container-fluid{
+.ps_plus{
     background-color: #bebcbb;
 }
 .ps_plus .box_img, .playstation .box_img, .esplora_ps .box_img, .sconti .box-img{
@@ -132,7 +132,7 @@ section.returnal{
     background-color: rgba(255, 255, 255, 0.3);
 }
 /* inizio ps_now */
-.ps_now .container-fluid{
+.ps_now{
     background-color: #171c39;
 }
 .ps_now .box_logo{
