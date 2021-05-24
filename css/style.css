@@ -143,14 +143,20 @@ section.returnal{
 }
 /* fine main  */
 /* inizio footer  */
-
+footer{
+    font-size: 14px;
+}
+.p_footer i{
+    font-size: 8px;
+    vertical-align: super;
+}
 .bg_blue{
     background-color: #194296;
 }
 .logo_footer{
     width: 80px;
 }
-
+/* fine footer inizio media query  */
 @media (min-width:768px) {
     .playstation .photo_ps{
         width: calc(100% / 5);
