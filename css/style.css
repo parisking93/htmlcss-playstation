@@ -20,6 +20,9 @@ body{
 .black{
     color: black !important;
 }
+.trans_all_4{
+    transition: all 0.4s ease;
+}
 /* FINE COOMONS  */
 /* header  */
 .box_sony img{
