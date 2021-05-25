@@ -149,6 +149,9 @@ section.returnal{
     margin-top: -10px;
     cursor: pointer;
 }
+.f_play:hover{
+    margin-bottom: 10px;
+}
 .photo:hover {
     border-bottom: 2px solid #3978c9;
     margin-bottom: -2px;
